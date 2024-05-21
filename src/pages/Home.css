@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Pixellari';
+  src: url('../assets/Pixellari.ttf') format('truetype');
+}
+
+
+
+ion-title {
+  font-family: 'Pixellari', sans-serif; 
+  text-align: center;
+}
+
+ion-content {
+  background-image: url('../assets/8666420.jpg');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+
+.outdoor-card {
+  border-radius: 15px; 
+
+}
+
+.card-content {
+  text-align: center; 
+  font-size: 1.5em; 
+  font-family: 'Pixellari', sans-serif; 
+  color: #fafafa;
+}
+
+ion-card-title {
+  font-family: 'Pixellari', sans-serif;
+  text-align: center; 
+  color: #fafafa;
+  
+}
+
+
+ion-button {
+  margin-bottom: 10px; 
+  height: 50px; 
+  font-family: 'Pixellari', sans-serif; 
+  --border-radius: 10px; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.button-grid {
+  width: 100%;
+  max-width: 300px; 
+}
+
+ion-button {
+  --border-radius: 10px; 
+}

@@ -1,0 +1,39 @@
+/* Estilo para a página de login */
+.login-admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.login-form {
+    padding-top: 250px;
+}
+
+
+.login-form ion-item {
+    margin-bottom: 20px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    --border-radius: 10px; 
+}
+
+
+.login-form ion-input {
+    font-family: 'Pixellari', sans-serif; 
+}
+
+.icon-wrapper img {
+    color: #fafafa;
+  }
+  
+
+.login-form ion-input::placeholder {
+    font-family: 'Pixellari', sans-serif; 
+}
+
+
+.login-form ion-button {
+   margin-left: 50px;
+   margin-right: 50px;
+}

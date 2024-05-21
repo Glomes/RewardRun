@@ -1,0 +1,42 @@
+.form-outer-container {
+    margin: 0 20px; 
+    font-family: 'Pixellari', sans-serif;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 0px;
+  }
+  
+
+  .form-item {
+    width: 100%; 
+    margin-bottom: 30px;
+    --border-radius: 10px; 
+    
+  }
+  
+  .form-item ion-label {
+    margin-top: 20px;
+    
+
+  }
+  
+  .form-item ion-input {
+    
+    font-family: 'Pixellari', sans-serif;
+  }
+  
+  
+  .form-item ion-input::placeholder {
+    font-family: 'Pixellari', sans-serif;
+  }
+  
+  
+  .submit-button {
+    width: 100%; 
+  }

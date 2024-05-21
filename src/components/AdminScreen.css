@@ -1,0 +1,36 @@
+.admin-button {
+    margin-bottom: 10px; 
+    height: 50px; 
+    font-family: 'Pixellari', sans-serif; 
+    --border-radius: 10px; 
+  }
+
+  ion-content {
+    background-image: url('../assets/8666420.jpg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  
+  
+  .admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .admin-button-grid {
+    width: 100%;
+    max-width: 400px; 
+  }
+
+ 
+  
+  .admin-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 25px;
+  }
